@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registering Form</title>
+        <link type="text/css" rel="stylesheet" href="stylesheet.css" >
+    </head>
+    <body>
+        <header class="header">
+                <h1>MFR Registering From</h1>
+                <p>This is MFR registering form for new remote students, please fill the below form</p>
+        </header>
+        <main class="container">
+            <form action="url" method="POST">
+                <article>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="fist-name" name="first name" placeholder="Enter your first name" required class="box">
+                </article>
+                <article>
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last name" placeholder="Enter your last name" required class="box">
+                </article>
+                <article>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your Email" required class="box">
+                </article>
+                <article>
+                    <label for="age">Age (optional)</label>
+                    <input type="text" id="age" name="age" placeholder="Enter your age" class="box">
+                </article>
+                <article>
+                    <label for="country-label">Where are you from?</label>
+                </article>
+                <section>
+                    <div>
+                        <select name="country" id="country-label" class="country">
+                            <option selected>Spain</option>
+                            <option>Afghanistan</option>
+                            <option>Siria</option>
+                            <option>Iraq</option>
+                            <option>Lebanon</option>
+                            <option>Yemen</option>
+                            <option>Morocco</option>
+                            <option>Palestine</option>
+                        </select>
+                    </div>
+                </section> 
+                <section>        
+                <span>How did you find us?</span>
+                    <article>
+                        <input type="radio" id="web-label" name="find-us">
+                        <label for="web-label">Web page</label>
+                    </article>
+                    <article>
+                        <input type="radio" id="friend-label" name="find-us">
+                        <label for="friend-label">My Frind</label>
+                    </article>
+                    <article>
+                        <input type="radio" id="social-label" name="find-us">
+                        <label for="social-label">Social media</label>
+                    </article>    
+                </section>  
+                <section>     
+                    <article>
+                        <label for="study-label">What do you want to learn?</label>
+                    </article>
+                    <div>
+                        <select name="study" id="study-label" class="learn">
+                            <option>HTML5</option>
+                            <option>CSS3</option>
+                            <option>JavaScript</option>
+                            <option>Phyton</option>
+                            <option>jQuery</option>
+                            <option>PHP</option>
+                            <option>C++</option>
+                        </select>
+                    </div>    
+                </section>   
+                <section>   
+                    <span>What is your availability?</span>
+                    <article>
+                        <input type="checkbox" id="monday-label" name="days">
+                        <label for="monday-label">Monday</label>
+                    </article>
+                    <article>
+                        <input type="checkbox" id="tuesday-label" name="days">
+                        <label for="tuesday-label">Tuesday</label>
+                    </article>
+                    <article>
+                        <input type="checkbox" id="wednesday-label" name="days">
+                        <label for="wednesday-label">Wednesday</label>
+                    </article>
+                    <article>
+                        <input type="checkbox" id="thursday-label" name="days">
+                        <label for="thursday-label">Thursday</label>
+                    </article>
+                    <article>
+                        <input type="checkbox" id="friday-label" name="days">
+                        <label for="friday-label">Friday</label>
+                    </article>
+                    <article>
+                        <label for="message">Write your message</label>
+                        <textarea name="message" id="message" class="message"></textarea>
+                    </article>
+                </section> 
+                <div>
+                    <button type="submit" class="button">Submit</button>
+                </div>
+            </form>
+        </main>
+
+    </body>
+</html>
